@@ -46,24 +46,6 @@ mjml
             mj-divider(padding="0" border-style="solid" border-width="1px" border-color="#eeeeee")
             mj-button(padding="0" inner-padding="14px 25px" font-family="'Montserrat', Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" line-height="18px" color="#ffffff" background-color="#9a7800" letter-spacing="3.5px" text-transform="uppercase" border-radius="0")
         mj-breakpoint(width="480px")
-        mj-style.   
-            @media only screen and (max-width:480px) {
-            .desktop-only td {
-                display: none !important;
-                mso-hide: all !important; /* Outlook */
-                }
-            .center div{
-                text-align: center !important;
-            }
-            .padding div{
-                padding-left: 30px !important;
-                padding-right: 50px !important;
-            }
-            .form td{
-                padding-left: 11px !important;
-                padding-right: 11px !important;
-            }
-            }
     //- Body
     mj-body(background-color='#ffffff' width="600px")
         //- content
@@ -75,5 +57,5 @@ mjml
             block details
             include ../../dubaiTwo/src/includes/_two
         //-bloc footer
-            block footer
-            include ../../dubaiThree/src/includes/_footer
+        block footer
+            include ../includes/_footer
