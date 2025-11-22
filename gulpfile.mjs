@@ -38,14 +38,14 @@ const ensureDistDirectory = async () => {
   }
 };
 
-// Démarrage du serveur Live avec désactivation du cache
+// Démarrage du serveur browerSync avec désactivation du cache
 const serve = (done) => {
   bs.init({
     server: {
       baseDir: './dist'
     },
     port: 8080,
-    open: true,
+    open: false,
     files: ['./dist/*.html'],
     notify: false,
     ghostMode: false
@@ -172,7 +172,10 @@ const verification = () => {
 
 // Surveillance des modifications
 const watch = () => {
-  gulp.watch('./src/**/*.pug', gulp.series(pugToMjml, mjmlToHtml, minifyHtml, verification, bs.reload));
+  gulp.watch('./src/**/*.pug', gulp.series(pugToMjml, mjmlToHtml, minifyHtml, verification, (done) => {bs.reload;
+      done();
+    }
+  ));
 };
 
 // Tâche par défaut

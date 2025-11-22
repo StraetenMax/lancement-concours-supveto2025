@@ -6,7 +6,6 @@
   "scripts": {
     "build": "gulp",
     "dev": "gulp watch",
-    "image": "gulp compressImg",
     "verification": "gulp verification"
   },
   "keywords": [],
@@ -15,13 +14,13 @@
   "devDependencies": {
     "browser-sync": "^3.0.4",
     "cheerio": "^1.1.2",
-    "del": "^8.0.0",
-    "gulp": "^5.0.0",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
     "gulp-cli": "^3.1.0",
     "gulp-pug": "^5.0.0",
     "gulp-rename": "^2.0.0",
     "html-minifier-terser": "^7.2.0",
-    "mjml": "^4.16.1",
+    "mjml": "^4.17.0",
     "through2": "^4.0.2"
   }
 }

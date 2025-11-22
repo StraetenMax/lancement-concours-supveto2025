@@ -47,15 +47,15 @@
   <mj-body background-color="#ffffff" width="600px">
     <mj-section>
       <mj-column>
-        <mj-text>Pour consulter la version en ligne, cliquez ici</mj-text>
+        <mj-text align="center">Pour consulter la version en ligne, cliquez ici</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text>Cet e-mail a été envoyé à {{ contact.EMAIL }}. Vous recevez cette nformation car vous vous êtes inscrit sur Supveto.</mj-text>
-        <mj-text>Pour être sûr(e) de recevoir tous nos emails, nous vous conseillons d'ajouter contact@supveto.fr à votre carnet d'adresses.</mj-text>
-        <mj-text>Cliquez ici pous vous désabonner</mj-text>
-        <mj-text>© 2025 Supveto</mj-text>
+        <mj-text align="center">Cet e-mail a été envoyé à {{ contact.EMAIL }}. Vous recevez cette nformation car vous vous êtes inscrit sur Supveto.</mj-text>
+        <mj-text align="center">Pour être sûr(e) de recevoir tous nos emails, nous vous conseillons d'ajouter contact@supveto.fr à votre carnet d'adresses.</mj-text>
+        <mj-text align="center">Cliquez ici pous vous désabonner</mj-text>
+        <mj-text align="center">© 2025 Supveto</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
