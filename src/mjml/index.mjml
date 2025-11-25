@@ -57,17 +57,17 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text>Jeu Concours 2025</mj-text>
-        <mj-text>Photo de Noël</mj-text>
-        <mj-text>A envoyer avant le 4 janvier 2026</mj-text>
+        <mj-text align="center">Jeu Concours 2025</mj-text>
+        <mj-text align="center">Photo de Noël</mj-text>
+        <mj-text align="center">A envoyer avant le 4 janvier 2026</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text>Tu veux que ton animal devienne la star des fêtes ? SupVéto lance son concours photo de Noël !</mj-text>
-        <mj-text>Habille ton compagnon avec un accessoire ou un déguisement festif, ajoute une touche d’humour et de créativité, et prends la photo la plus joyeuse de l’année. Tu peux être sur la photo ou laisser ton animal briller seul, mais n’oublie jamais : le respect et le bien-être de ton compagnon passent avant tout.</mj-text>
-        <mj-text>Pour participer, envoie une seule photo par mail à concours.national.noel@supveto.com, en précisant ton nom, ton prénom et ton école SupVéto.</mj-text>
-        <mj-text>C’est l’occasion de partager un moment de complicité, de diffuser de la bonne humeur autour de toi et de tenter de gagner le concours national SupVéto. Alors {{contact.PRENOM}}, montre ton imagination et fais de ton animal le roi de Noël </mj-text>
+        <mj-text mj-class="T16 fw0">Tu veux que ton animal devienne la star des fêtes&nbsp;? Sup-Véto lance son concours photo de Noël&nbsp;!</mj-text>
+        <mj-text mj-class="T16 fw0">Habille ton compagnon avec un accessoire ou un déguisement festif, ajoute une touche d’humour et de créativité, et prends la photo la plus joyeuse de l’année. Tu peux être sur la photo ou laisser ton animal briller seul, mais n’oublie jamais&nbsp;: le respect et le bien-être de ton compagnon passent avant tout.</mj-text>
+        <mj-text mj-class="T16 fw0">Pour participer, envoie une seule photo par mail à concours.noel2025@supveto.com, en précisant ton nom, ton prénom et ton école Sup-Véto.</mj-text>
+        <mj-text mj-class="T16 fw0">C’est l’occasion de partager un moment de complicité, de diffuser de la bonne humeur autour de toi et de tenter de gagner le concours national Sup-Véto. Alors {{contact.PRENOM}}, montre ton imagination et fais de ton animal le roi de Noël. </mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
