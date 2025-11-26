@@ -56,10 +56,9 @@
     </mj-section>
     <mj-section padding="0 20px" background-color="#ffffff">
       <mj-column>
-        <mj-text padding="0" align="center" font-size="22px" line-height="22px" font-weight="700" color="#a50c11">Jeu Concours 2025</mj-text>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-text padding="0" align="center" font-family="'Cookie', cursive" font-size="120px" line-height="60px" color="#B50000">Photo<span style="font-size:40px;">de</span>Noël</mj-text>
-        <mj-text padding="0" align="center" font-size="18px" line-height="18px" font-weight="500" color="#098855">À envoyer avant le 4 janvier 2026</mj-text>
+        <mj-text padding="0" padding-bottom="30px" align="center" font-size="22px" line-height="22px" font-weight="700" color="#a50c11">Jeu Concours 2025</mj-text>
+        <mj-text padding="0" align="center" font-family="'Cookie', cursive" font-size="120px" line-height="60px" color="#B50000">Photo<span style="display:inline-block;vertical-align:8px;font-size:40px;line-height:0">de</span>Noël</mj-text>
+        <mj-text padding="0" padding-top="15px" align="center" font-size="18px" line-height="24px" font-weight="500" color="#098855">À envoyer avant le 4&nbsp;janvier&nbsp;2026</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="30px" background-color="#ffffff">
