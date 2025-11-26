@@ -14,13 +14,9 @@ mjml
             <meta name="format-detection" content="email=no"/>
         mj-attributes
             mj-all(font-family="'Open Sans', Arial, Helvetica, sans-serif")/
-            mj-class(name='T30' font-style="normal" font-size="30px")/
-            mj-class(name='T22' font-style="normal" font-size="22px")/
-            mj-class(name='T15' font-style="normal" font-size="15px")/
-            mj-class(name='T14' font-style="normal" font-size="14px")/
             //- font-size / line-height
             mj-class(name='T60' font-style="normal" font-size='60px' line-height="68px")/
-            mj-class(name='T36' font-style="normal" font-size='36px' line-height="46px")/
+            mj-class(name='T22' font-style="normal" font-size="22px")/
             mj-class(name='T18' font-style="normal" font-size='18px' line-height="24px")/
             mj-class(name='T16' font-style="normal" font-size='16px' line-height="24px")/
             mj-class(name='T12' font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size='12px' font-weight="400" line-height="18px")/
@@ -28,8 +24,6 @@ mjml
             mj-class(name="fw0" font-weight="400")/
             mj-class(name="fw1" font-weight="600")/
             mj-class(name="fw2" font-weight="700")/
-            //-line heigth
-            mj-class(name="lh" line-height="1.2")/
             //- color
             mj-class(name="cTW0" color="#ffffff")/
             mj-class(name="cTW1" color="#EEF1F5")/
@@ -41,12 +35,9 @@ mjml
             mj-class(name="bgFclair" background-color="#eaeaea")/
             mj-class(name="bgV" background-color="#00412b")/
             mj-class(name="bgV+2" background-color="#002b1c")/
-            //- compoments
-            mj-divider(padding="0" border-style="solid" border-width="1px" border-color="#eeeeee")
-            mj-button(padding="0" inner-padding="14px 25px" font-family="'Montserrat', Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" line-height="18px" color="#ffffff" background-color="#9a7800" letter-spacing="3.5px" text-transform="uppercase" border-radius="0")
         mj-breakpoint(width="480px")
         mj-style.
-            @media only screen and (max-width:440px) {
+            @media only screen and (max-width:480px) {
                 .hide-on-mobile {
                     display: none !important;
                     mso-hide: all; /* Outlook hack */
