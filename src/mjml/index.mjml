@@ -42,6 +42,18 @@
       <mj-button padding="0" inner-padding="14px 25px" font-family="'Montserrat', Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" line-height="18px" color="#ffffff" background-color="#9a7800" letter-spacing="3.5px" text-transform="uppercase" border-radius="0"></mj-button>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      @media only screen and (max-width:440px) {
+          .hide-on-mobile {
+              display: none !important;
+              mso-hide: all; /* Outlook hack */
+          }
+          .lh-120 {
+              line-height: 80px !important; 
+              mso-line-height-rule: exactly; /* Outlook hack */
+          }
+          }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#f6f6f6" width="600px">
     <mj-section padding="0 20px">
@@ -57,7 +69,10 @@
     <mj-section padding="0 20px" background-color="#ffffff">
       <mj-column>
         <mj-text padding="0" padding-bottom="30px" align="center" font-size="22px" line-height="22px" font-weight="700" color="#a50c11">Jeu Concours 2025</mj-text>
-        <mj-text padding="0" align="center" font-family="'Cookie', cursive" font-size="120px" line-height="60px" color="#B50000">Photo<span style="display:inline-block;vertical-align:8px;font-size:40px;line-height:0">de</span>Noël</mj-text>
+        <mj-text padding="0" align="center" font-family="'Cookie', cursive" font-size="120px" color="#B50000"> 
+          <div class="lh-120">
+             Photo <span class="hide-on-mobile" style="display:inline-block;vertical-align:8px;font-size:40px;line-height:0">de</span>Noël</div>
+        </mj-text>
         <mj-text padding="0" padding-top="15px" align="center" font-size="18px" line-height="24px" font-weight="500" color="#098855">À envoyer avant le 4&nbsp;janvier&nbsp;2026</mj-text>
       </mj-column>
     </mj-section>
