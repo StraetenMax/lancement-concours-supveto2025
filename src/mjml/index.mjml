@@ -72,12 +72,12 @@
     </mj-section>
     <mj-section padding="0" background-color="#ffffff">
       <mj-column width="100%">
-        <mj-image padding="0" align="center" width="600px" src="images/basImage12025.png" alt="Lapin, perroquet, cheval et serpent avec un chapeau de noël dans un cadre instagram"></mj-image>
+        <mj-image padding="0" align="center" width="600px" src="images/basImage12025.png" alt="Lapin, perroquet, cheval et serpent avec un chapeau de noël dans un cadre instagram"/>
       </mj-column>
     </mj-section>
-    <mj-section padding="0" background-color="#37A943">
-      <mj-column width="100%">
-        <mj-image padding="0" align="center"></mj-image>
+    <mj-section padding="20px" padding-bottom="40px" background-color="#008d36">
+      <mj-column>
+        <mj-image padding="0" align="center" width="200px" src="images/logoSupveto.png" alt="logotype de Supveto"/>
       </mj-column>
     </mj-section>
     <mj-section padding="20px">
