@@ -56,7 +56,7 @@
     </mj-section>
     <mj-section padding="0">
       <mj-column width="100%">
-        <mj-image padding="0" align="center" width="600px" src="images/hautImage12025.png" alt="chat et chien jouent dans la neige sur un fond rouge de noël"></mj-image>
+        <mj-image padding="0" align="center" width="600px" src="https://i.ibb.co/mrYX8Hdt/haut-Image12025.png" alt="chat et chien jouent dans la neige sur un fond rouge de noël"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section padding="0 20px" background-color="#ffffff">
@@ -83,12 +83,12 @@
     </mj-section>
     <mj-section padding="0" background-color="#ffffff">
       <mj-column width="100%">
-        <mj-image padding="0" align="center" width="600px" src="images/basImage12025.png" alt="Lapin, perroquet, cheval et serpent avec un chapeau de noël dans un cadre instagram"/>
+        <mj-image padding="0" align="center" width="600px" src="https://i.ibb.co/8gbPgK88/bas-Image12025.png" alt="Lapin, perroquet, cheval et serpent avec un chapeau de noël dans un cadre instagram"/>
       </mj-column>
     </mj-section>
     <mj-section padding="20px" padding-bottom="40px" background-color="#008d36">
       <mj-column>
-        <mj-image padding="0" align="center" width="200px" src="images/logoSupveto.png" alt="logotype de Supveto"/>
+        <mj-image padding="0" align="center" width="200px" src="https://i.ibb.co/HT2C6zYJ/logo-Supveto.png" alt="logotype de Supveto"/>
       </mj-column>
     </mj-section>
     <mj-section padding="20px">
