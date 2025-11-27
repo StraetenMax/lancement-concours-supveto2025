@@ -36,15 +36,18 @@ mjml
             mj-class(name="bgV" background-color="#00412b")/
             mj-class(name="bgV+2" background-color="#002b1c")/
         mj-breakpoint(width="480px")
-        mj-style.
+        //-mj-style.
             @media only screen and (max-width:480px) {
                 .hide-on-mobile {
                     display: none !important;
                     mso-hide: all; /* Outlook hack */
-                }
+                }   
+                .break-mobile { 
+                    display:block !important; 
+                    }
                 .nowrap { 
-                    white-space:nowrap;}
-
+                    white-space:nowrap;
+                    }
                 .lh-120 {
                     line-height: 80px !important; 
                     mso-line-height-rule: exactly; /* Outlook hack */

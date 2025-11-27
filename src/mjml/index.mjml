@@ -35,21 +35,6 @@
       <mj-class name="bgV+2" background-color="#002b1c"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
-    <mj-style>
-      @media only screen and (max-width:480px) {
-          .hide-on-mobile {
-              display: none !important;
-              mso-hide: all; /* Outlook hack */
-          }
-          .nowrap { 
-              white-space:nowrap;}
-      
-          .lh-120 {
-              line-height: 80px !important; 
-              mso-line-height-rule: exactly; /* Outlook hack */
-          }
-          }
-    </mj-style>
   </mj-head>
   <mj-body background-color="#f6f6f6" width="600px">
     <mj-section padding="0 20px">
