@@ -48,16 +48,13 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0 20px" background-color="#ffffff">
-      <mj-column width="100%" padding-bottom="20px">
+      <mj-column width="100%" padding-bottom="5px">
         <mj-text padding="0" align="center" mj-class="T22 fw2" line-height="22px" color="#a50c11">Jeu Concours 2025</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-text padding="0" align="center" font-family="'Cookie', cursive" font-size="120px" line-height="60px" color="#B50000"> 
-          <div class="lh-120">
-             Photo <span class="hide-on-mobile" style="display:inline-block;vertical-align:8px;font-size:40px;line-height:0">de</span> <span class="nowrap">Noël</span></div>
-        </mj-text>
+        <mj-image padding="0" width="500px" src="https://i.ibb.co/DD996zr6/photo-Noel.png" alt="Photo de Noël"></mj-image>
       </mj-column>
-      <mj-column width="100%" padding-top="10px">
+      <mj-column width="100%" padding-top="5px">
         <mj-text padding="0" align="center" font-size="18px" line-height="24px" font-weight="700" color="#098855">À envoyer avant le 4&nbsp;janvier&nbsp;2026</mj-text>
         <mj-text padding="0" align="center" font-size="18px" line-height="24px" font-weight="500" color="#098855">Cartes cadeaux à gagner !!!</mj-text>
       </mj-column>
