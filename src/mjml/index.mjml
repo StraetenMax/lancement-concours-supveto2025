@@ -41,6 +41,9 @@
               display: none !important;
               mso-hide: all; /* Outlook hack */
           }
+          .nowrap { 
+              white-space:nowrap;}
+      
           .lh-120 {
               line-height: 80px !important; 
               mso-line-height-rule: exactly; /* Outlook hack */
@@ -66,11 +69,12 @@
       <mj-column width="100%">
         <mj-text padding="0" align="center" font-family="'Cookie', cursive" font-size="120px" line-height="60px" color="#B50000"> 
           <div class="lh-120">
-             Photo<span class="hide-on-mobile" style="display:inline-block;vertical-align:8px;font-size:40px;line-height:0">de</span>Noël</div>
+             Photo <span class="hide-on-mobile" style="display:inline-block;vertical-align:8px;font-size:40px;line-height:0">de</span> <span class="nowrap">Noël</span></div>
         </mj-text>
       </mj-column>
       <mj-column width="100%" padding-top="10px">
-        <mj-text padding="0" align="center" font-size="18px" line-height="24px" font-weight="500" color="#098855">À envoyer avant le 4&nbsp;janvier&nbsp;2026</mj-text>
+        <mj-text padding="0" align="center" font-size="18px" line-height="24px" font-weight="700" color="#098855">À envoyer avant le 4&nbsp;janvier&nbsp;2026</mj-text>
+        <mj-text padding="0" align="center" font-size="18px" line-height="24px" font-weight="500" color="#098855">Cartes cadeaux à gagner !!!</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="30px" background-color="#ffffff">
